@@ -233,4 +233,8 @@
     <string name="security_settings_face_require_swipe">Zum Entsperren nach oben wischen</string>
     <string name="security_settings_face_require_swipe_summary">Wischen Sie auf dem Sperrbildschirm nach oben, um die Gesichtsentsperrung zu verwenden</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Vor dem Einschalten des Bildschirms den Näherungssensor überprüfen</string>
+
 </resources>
