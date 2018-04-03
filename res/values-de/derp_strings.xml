@@ -18,6 +18,9 @@
     <!-- DerpFest Version -->
     <string name="derp_version">DerpFest Build</string>
 
+    <!-- DerpFest maintainer -->
+    <string name="maintainer">Entwickler</string>
+
     <!-- DerpFest Build types -->
     <string name="build_type">Build-Typ</string>
     <string name="derp_official">Offiziell</string>
