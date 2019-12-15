@@ -33,4 +33,11 @@
     <string name="ambient_wake_gestures_title">Ambient-Weckgesten</string>
     <string name="ambient_wake_gestures_summary">Ambient Display anstelle des normalem Sperrbildschirms bei Weckgesten anzeigen</string>
 
+    <string name="smallest_tick_label">Ganzer Bildschirm</string>
+    <string name="greatest_tick_label">Halber Bildschirm</string>
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Rückwärtswisch-Empfindlichkeit und DeadZone</string>
+    <!-- [CHAR LIMIT=NONE] -->
+    <string name="back_sensitivity_dialog_message_cust">\nVerwenden Sie die erste Suchleiste, um die Empfindlichkeit für den Rückwärtswisch zu konfigurieren, die zweite Suchleiste, um den Bereich des Bildschirms einzustellen, in dem der Wisch ausgelöst werden kann, um Konflikte mit In-App-Gesten zu vermeiden.</string>
+
 </resources>
