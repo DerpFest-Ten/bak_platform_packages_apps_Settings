@@ -40,4 +40,7 @@
     <!-- [CHAR LIMIT=NONE] -->
     <string name="back_sensitivity_dialog_message_cust">\nVerwenden Sie die erste Suchleiste, um die Empfindlichkeit für den Rückwärtswisch zu konfigurieren, die zweite Suchleiste, um den Bereich des Bildschirms einzustellen, in dem der Wisch ausgelöst werden kann, um Konflikte mit In-App-Gesten zu vermeiden.</string>
 
+    <!-- Button to open advanced power usage -->
+    <string name="battery_header_advanced_usage_button">Erweiterte Nutzung</string>
+
 </resources>

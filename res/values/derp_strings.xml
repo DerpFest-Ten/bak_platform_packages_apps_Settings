@@ -43,4 +43,7 @@
     <!-- [CHAR LIMIT=NONE] -->
     <string name="back_sensitivity_dialog_message_cust">\nUse the first seekbar to configure back swipe sensitivity, the second seekbar to set the area of the screen where the swipe can be triggered, to avoid conflicts with in-app gestures.</string>
 
+    <!-- Button to open advanced power usage -->
+    <string name="battery_header_advanced_usage_button">Advanced usage</string>
+
 </resources>
