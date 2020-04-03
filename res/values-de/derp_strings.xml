@@ -98,6 +98,11 @@
     <string name="unknown_night_light_time">Unbekannt - zum Aktualisieren drücken</string>
     <string name="night_display_location_text">\n\nDer Zeitplan von Sonnenuntergang bis Sonnenaufgang erfordert aktivierte Standortdienste, um die richtigen Zeiten für Ihren Standort zu erhalten.</string>
 
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Verbessert die Berührung bei der Verwendung von Bildschirmschutzfolien</string>
+    <string name="touch_sensitivity_title">Erhöhung der Berührungsempfindlichkeit</string>
+    <string name="keywords_touch_sensitivity">Berührung, Empfindlichkeit, Empfindlichkeit, Bildschirmschutz, Film, Reaktionsfähigkeit, Ansprechbarkeit</string>
+
     <!-- Fingerprint sensor locations -->
     <string name="security_settings_fingerprint_sensor_location_back">Rückseite</string>
     <string name="security_settings_fingerprint_sensor_location_front">Front</string>
