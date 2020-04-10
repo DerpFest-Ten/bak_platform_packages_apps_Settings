@@ -78,13 +78,6 @@
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show ambient display instead of lockscreen when using wake gestures</string>
 
-    <string name="smallest_tick_label">Full screen</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <!-- [CHAR LIMIT=60] -->
-    <string name="back_sensitivity_dialog_title_cust">Back Sensitivity and DeadZone</string>
-    <!-- [CHAR LIMIT=NONE] -->
-    <string name="back_sensitivity_dialog_message_cust">\nUse the first seekbar to configure back swipe sensitivity, the second seekbar to set the area of the screen where the swipe can be triggered, to avoid conflicts with in-app gestures.</string>
-
     <!-- Button to open advanced power usage -->
     <string name="battery_header_advanced_usage_button">Advanced usage</string>
 
@@ -197,5 +190,16 @@
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="back_sensitivity_dialog_title_cust">Navbar tuning</string>
+    <string name="back_gesture_sensitivity_dialog_message">Higher sensitivity may conflict with any app gestures along the edges of the screen.</string>
+    <string name="back_gesture_area_dead_zone_title">Back area dead zone</string>
+    <string name="back_gesture_area_dead_zone_message">Set the area of the screen where the swipe can be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">Full screen</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="show_gestures_navbar_title_text">Toggle navbar</string>
+    <string name="show_gestures_navbar_switch_text">Show gestures navbar</string>
 
 </resources>
