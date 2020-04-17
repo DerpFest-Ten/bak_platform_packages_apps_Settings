@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2018 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">OwlsNest</string>
+    <string name="owlsnest_activity_summary">Az Illuzió hazája...</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP Frissítő</string>
+    <string name="update_settings_summary">Legutóbbi ROM verzió ellenőrzése</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Nyelvek, frissítő, idő, biztonsági mentés</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Bezárás</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Témázás</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Kiemelőszín</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Címsor / Törzs betűtípus</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Ikonok formája</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">Eszköz alapértelmezett</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">A statisztikák törlése</string>
+    <string name="battery_stats_message">Az akkumulátorhasználati statisztikák törlésre kerülnek</string>
+    <!-- AOSiP Version -->
+    <string name="aosip_version">AOSiP Build</string>
+    <string name="ambient_wake_gestures_title">Környezeti kijelző ébresztő mozdulatai</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Érintse meg az információ megjelenítéséhez</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Képernyőmentéskor hallható hang</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play Áruház</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Érintés javítása képernyővédő fólia használatakor</string>
+    <string name="touch_sensitivity_title">Érintési érzékenység javítása</string>
+    <string name="keywords_touch_sensitivity">érintés, érzékenység, érzékeny, képernyővédő, fólia, reszponzív, fogékonyság</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Navigációs sáv mérete</string>
+    <string name="home_handle_low_label">Kicsi (AOSP)</string>
+    <string name="home_handle_high_label">Hosszú</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptív lejátszás</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none_summary">Ki</string>
+    <string name="adaptive_playback_timeout_30_secs">30 másodperc</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Be (30 másodperc)</string>
+    <string name="adaptive_playback_timeout_1_min">1 perc</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Be (1 perc)</string>
+    <string name="adaptive_playback_timeout_2_min">2 perc</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Be (2 perc)</string>
+    <string name="adaptive_playback_timeout_5_min">5 perc</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
+    <string name="adaptive_playback_timeout_10_min">10 perc</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Keresse meg az ujjlenyomat érzékelőt a telefon <xliff:g id="sensor_location">%1$s</xliff:g>.</string>
+    <!-- Twilight -->
+    <string name="unknown_night_light_time">Ismeretlen - nyomja meg a frissítéshez</string>
+    <string name="night_display_location_text">\n\nA naplemente és a napnyugta ütemezéséhez kötelező a helymeghatározási jogosultság megadása, mert csak így kaphat pontos időbeállításokat.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">hátul</string>
+    <string name="security_settings_fingerprint_sensor_location_front">elől</string>
+    <string name="security_settings_fingerprint_sensor_location_left">bal oldalon</string>
+    <string name="security_settings_fingerprint_sensor_location_right">jobb oldalon</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux állapota</string>
+    <string name="selinux_status_disabled">Letiltva</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobiladat-kapcsolat</string>
+    <string name="data_usage_app_restrict_data_summary">Mobiladat-használat engedélyezése</string>
+    <string name="data_usage_app_restrict_vpn">VPN adatok</string>
+    <string name="data_usage_app_restrict_vpn_summary">A VPN adathasználat engedélyezése</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi adathasználat</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi-adathasználat engedélyezése</string>
+    <!-- Ambient music ticker pulse -->
+    <string name="pulse_on_new_tracks_title">Zeneszám a környezeti kijelzőn</string>
+    <string name="pulse_on_new_tracks_summary">A Környezeti kijelző megjelenítése, ha új zeneszám kerül lejátszásra</string>
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB hálózaton keresztül</string>
+    <string name="adb_over_network_summary">Engedélyezi a TCP/IP hibakeresést hálózati eszközön keresztül (Wi-Fi, USB hálózatok). Újraindítás után alaphelyzetbe áll vissza.</string>
+    <string name="adb_over_network_warning">VIGYÁZAT: Ha a funkció engedélyezve van, az eszköz nyitva áll bármilyen behatolásra az összes kapcsolódó hálózaton keresztül!\n\nCsak biztonságos hálózatra csatlakozva érdemes engedélyezni.\n\nBiztosan engedélyezni szeretné?</string>
+    <string name="adb_over_network_warning_title">Engedélyezi az ADB-t hálózaton keresztül?</string>
+    <!-- Density category -->
+    <string name="density_category">Sűrűségi beállítások</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Akkumulátor hőmérséklete</string>
+    <string name="battery_temp_summary">Méretarány változtatása</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Zseblámpa aktiválása</string>
+    <string name="double_tap_power_flashlight_title">Bekapcsológomb használata a zseblámpához</string>
+    <string name="torch_power_button_gesture_none">Letiltva</string>
+    <string name="torch_power_button_gesture_dt">Zseblámpa indítása a bekapcsológomb dupla nyomásával</string>
+    <string name="torch_power_button_gesture_lp">Zseblámpa indítása a bekapcsológomb hosszan nyomásával</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Számok átugrása</string>
+    <string name="volume_skiptrack_title">Hangerőszabályzó léptet zenéket</string>
+    <string name="volume_skiptrack_summary">Long press the volume rocker to skip tracks when playing music, even remotely on tv or PC with e.g. Spotify (app must run on the phone and show the notification).</string>
+    <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Értesítés elutasítása az ujjlenyomat-olvasóval</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Az értesítések elutasításához csúsztasson jobbra vagy balra a készüléke hátulján található ujjlenyomatolvasó-szenzoron.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Csengőhang &amp; értesítési hangok összekötése</string>
+    <!-- AOD on charge -->
+    <string name="doze_on_charge_title">Állandóan bekapcsolva töltés közben</string>
+    <string name="doze_on_charge_summary">Show Always On Ambient display when charging</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Képernyőkép csúsztatással</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <!-- DT2S on statusbar -->
+    <string name="double_tap_to_sleep_title">Double tap to sleep on statusbar</string>
+    <string name="double_tap_to_sleep_summary">Double tap on statusbar to switch the screen off</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Speciális</string>
+    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">Teljes</string>
+    <string name="back_height_high_label">Alul</string>
+    <string name="back_options_dialog_title">Beállítások</string>
+    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_block_ime_title">Block height of virtual keyboard as touchable region for back gesture</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="navbar_gesture_mode_category_title">Mozdulatok finomhangolása</string>
+    <string name="navbar_gesture_mode_category_key">mozdulatok finomhangolása</string>
+    <string name="navbar_gesture_pill_toggle_title">Teljes képernyős vezérlőmozdulatok</string>
+    <string name="navbar_gesture_pill_toggle_summary">Eltünteti a navigációs sávot és a fogantyút a zökkenőmentes teljes képernyős élményért.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Ez a beállítás csak a mozdulat vezérlés esetén elérhető!</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Dupla kattintás</string>
+    <string name="doze_double_tap_title">Koppintson duplán a telefon képernyőjének megtekintéséhez</string>
+    <string name="doze_double_tap_summary">Pulzáló értesítések dupla érintésre</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Zsebérzékelés</string>
+    <string name="pocket_judge_summary">A képernyő és a gombok általi nem kívánt bevitelek blokkolása, amikor a készülék a zsebben van</string>
+    <string name="theme_category">Témázás</string>
+    <string name="theme_select_title">Témák</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+</resources>
