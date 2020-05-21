@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015-2018 AOSiP
+     Copyright (C) 2015-2018 DerpFest
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">Tính năng nâng cao</string>
     <string name="owlsnest_activity_summary">Tuỳ chỉnh giao diện hiển thị</string>
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">Cập nhật AOSiP</string>
-    <string name="update_settings_summary">Kiểm tra cập nhật AOSiP</string>
+    <!-- DerpFest Updater -->
+    <string name="update_settings_title">Cập nhật DerpFest</string>
+    <string name="update_settings_summary">Kiểm tra cập nhật DerpFest</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Ngôn ngữ, cập nhật, thời gian, sao lưu</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
@@ -38,8 +38,8 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Đặt lại thống kê</string>
     <string name="battery_stats_message">Thống kê lịch sử pin sẽ được đặt lại</string>
-    <!-- AOSiP Version -->
-    <string name="aosip_version">Phiên bản AOSiP</string>
+    <!-- DerpFest Version -->
+    <string name="derp_version">Phiên bản DerpFest</string>
     <string name="ambient_wake_gestures_title">Cử chỉ đánh thức xem nhanh</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->

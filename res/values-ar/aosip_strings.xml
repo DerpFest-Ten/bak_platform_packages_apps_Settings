@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015-2018 AOSiP
+     Copyright (C) 2015-2018 DerpFest
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">الإعدادات المخصصة</string>
     <string name="owlsnest_activity_summary">Home of the Kronic</string>
-    <!-- AOSiP Updater -->
+    <!-- DerpFest Updater -->
     <string name="update_settings_title">مُحدث AOSIP</string>
     <string name="update_settings_summary">تحقق من أحدث إصدار من الروم</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
@@ -38,8 +38,8 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">إعادة تعيين الإحصائيات</string>
     <string name="battery_stats_message">سيتم إعادة تعيين إحصائيات البطارية</string>
-    <!-- AOSiP Version -->
-    <string name="aosip_version">بناء AOSIP</string>
+    <!-- DerpFest Version -->
+    <string name="derp_version">بناء AOSIP</string>
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->

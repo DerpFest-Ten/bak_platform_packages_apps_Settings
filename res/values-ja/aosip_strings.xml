@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015-2018 AOSiP
+     Copyright (C) 2015-2018 DerpFest
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Kronic のすみか</string>
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP アップデート</string>
+    <!-- DerpFest Updater -->
+    <string name="update_settings_title">DerpFest アップデート</string>
     <string name="update_settings_summary">ROM の最新バージョンを確認する</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">言語、アップデーター、時間、バックアップ</string>
@@ -38,8 +38,8 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">統計をリセット</string>
     <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
-    <!-- AOSiP Version -->
-    <string name="aosip_version">AOSiP ビルド</string>
+    <!-- DerpFest Version -->
+    <string name="derp_version">DerpFest ビルド</string>
     <string name="ambient_wake_gestures_title">アンビエント復帰ジェスチャー</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->

@@ -25,8 +25,9 @@ import androidx.annotation.VisibleForTesting;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
-import com.android.settings.display.AmbientDisplayCustomPreferenceController;
+import com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController;
 import com.android.settings.display.AmbientDisplayNotificationsPreferenceController;
+import com.android.settings.display.AmbientDisplayCustomPreferenceController;
 import com.android.settings.display.AmbientWakeGesturesPreferenceController;
 import com.android.settings.display.PulseOnNewTracksPreferenceController;
 import com.android.settings.gestures.DoubleTapScreenPreferenceController;
@@ -92,12 +93,15 @@ public class LockscreenDashboardFragment extends DashboardFragment
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
+        use(AmbientDisplayAlwaysOnPreferenceController.class)
+                .setConfig(getConfig(context))
+                .setCallback(this::updatePreferenceStates);
         use(AmbientDisplayNotificationsPreferenceController.class).setConfig(getConfig(context));
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
+        addPreferenceController(new AmbientDisplayCustomPreferenceController(context));
         use(PulseOnNewTracksPreferenceController.class).setConfig(getConfig(context));
         use(AmbientWakeGesturesPreferenceController.class).setConfig(getConfig(context));
-        addPreferenceController(new AmbientDisplayCustomPreferenceController(context));
     }
 
     @Override

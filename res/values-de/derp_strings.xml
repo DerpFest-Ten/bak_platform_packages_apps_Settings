@@ -237,4 +237,8 @@
     <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
     <string name="proximity_wake_summary">Vor dem Einschalten des Bildschirms den Näherungssensor überprüfen</string>
 
+    <!-- AOD on charge -->
+    <string name="doze_on_charge_title">Always On beim Laden</string>
+    <string name="doze_on_charge_summary">Always On Ambient-Anzeige anzeigen beim Laden</string>
+
 </resources>

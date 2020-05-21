@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015-2018 AOSiP
+     Copyright (C) 2015-2018 DerpFest
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Rumah Kronic</string>
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">Pembaruan AOSiP</string>
+    <!-- DerpFest Updater -->
+    <string name="update_settings_title">Pembaruan DerpFest</string>
     <string name="update_settings_summary">Periksa versi rom terbaru</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Bahasa, pembaruan, waktu, cadangan</string>
@@ -38,8 +38,8 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Setel ulang statistik</string>
     <string name="battery_stats_message">Statistik penggunaan baterai akan disetel ulang</string>
-    <!-- AOSiP Version -->
-    <string name="aosip_version">Membangun AOSiP</string>
+    <!-- DerpFest Version -->
+    <string name="derp_version">Membangun DerpFest</string>
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->

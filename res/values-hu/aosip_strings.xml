@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015-2018 AOSiP
+     Copyright (C) 2015-2018 DerpFest
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Az Illuzió hazája...</string>
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Frissítő</string>
+    <!-- DerpFest Updater -->
+    <string name="update_settings_title">DerpFest Frissítő</string>
     <string name="update_settings_summary">Legutóbbi ROM verzió ellenőrzése</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Nyelvek, frissítő, idő, biztonsági mentés</string>
@@ -38,8 +38,8 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">A statisztikák törlése</string>
     <string name="battery_stats_message">Az akkumulátorhasználati statisztikák törlésre kerülnek</string>
-    <!-- AOSiP Version -->
-    <string name="aosip_version">AOSiP Build</string>
+    <!-- DerpFest Version -->
+    <string name="derp_version">DerpFest Build</string>
     <string name="ambient_wake_gestures_title">Környezeti kijelző ébresztő mozdulatai</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->

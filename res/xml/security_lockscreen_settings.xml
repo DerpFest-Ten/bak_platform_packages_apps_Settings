@@ -60,11 +60,11 @@
         android:title="@string/ambient_display_category_triggers"
         android:order="1000">
 
-        <com.android.settingslib.RestrictedPreference
-            android:key="ambient_display"
-            android:title="@string/ambient_display_screen_title"
-            android:fragment="com.android.settings.display.AmbientDisplaySettings"
-            settings:controller="com.android.settings.display.AmbientDisplayParentPreferenceController"
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="ambient_display_always_on"
+            android:title="@string/doze_always_on_title"
+            android:summary="@string/doze_always_on_summary"
+            settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
         <Preference
@@ -92,25 +92,29 @@
             android:fragment="com.android.settings.gestures.PickupGestureSettings"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
-        <com.derp.support.preference.SystemSettingSwitchPreference
-            android:key="ambient_wake_gestures"
-            android:title="@string/ambient_wake_gestures_title"
-            android:summary="@string/ambient_wake_gestures_summary"
-            android:defaultValue="true"
-            settings:controller="com.android.settings.display.AmbientWakeGesturesPreferenceController" />
-
         <SwitchPreference
             android:key="ambient_display_notification"
             android:title="@string/doze_title"
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
-        <com.derp.support.preference.SystemSettingSwitchPreference
+        <SwitchPreference
+            android:key="ambient_wake_gestures"
+            android:title="@string/ambient_wake_gestures_title"
+            android:summary="@string/ambient_wake_gestures_summary"
+            settings:controller="com.android.settings.display.AmbientWakeGesturesPreferenceController" />
+
+        <SwitchPreference
             android:key="pulse_on_new_tracks"
             android:title="@string/pulse_on_new_tracks_title"
             android:summary="@string/pulse_on_new_tracks_summary"
-            android:defaultValue="false"
             settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
+
+        <com.derp.support.preference.SecureSettingSwitchPreference
+            android:key="doze_on_charge"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary"
+            android:defaultValue="false" />
 
         <Preference
             android:key="ambient_display_custom"

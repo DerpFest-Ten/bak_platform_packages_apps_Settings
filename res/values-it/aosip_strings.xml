@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015-2018 AOSiP
+     Copyright (C) 2015-2018 DerpFest
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">Tana del Gufo</string>
     <string name="owlsnest_activity_summary">Tana del Kronic</string>
-    <!-- AOSiP Updater -->
-    <string name="update_settings_title">Updater AOSiP</string>
+    <!-- DerpFest Updater -->
+    <string name="update_settings_title">Updater DerpFest</string>
     <string name="update_settings_summary">Controlla l\'ultima versione della ROM</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Lingue, updater, orario, backup</string>
@@ -38,8 +38,8 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Resetta statistiche</string>
     <string name="battery_stats_message">Le statistiche cronologia batteria saranno resettate</string>
-    <!-- AOSiP Version -->
-    <string name="aosip_version">Build AOSiP</string>
+    <!-- DerpFest Version -->
+    <string name="derp_version">Build DerpFest</string>
     <string name="ambient_wake_gestures_title">Gesti Ambient display</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->

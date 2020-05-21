@@ -35,7 +35,7 @@ public class AmbientDisplayParentPreferenceController extends BasePreferenceCont
 
     @Override
     public int getAvailabilityStatus() {
-        return mIsAmbientAvailable ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return AVAILABLE;
     }
 
     @Override
